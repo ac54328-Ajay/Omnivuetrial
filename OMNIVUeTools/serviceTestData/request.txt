@@ -1,0 +1,23 @@
+{
+  "SOURCE_SYSTEM": "ISAT-L2VPN",
+  "PON": "992333",
+  "TASK_DESCRIPTION": "Potential Erroneous Disconnect Review retest",
+  "EVC_ID": "16/VLXX/706559//ACSO",
+  "TASK_NAME": "Potential Erroneous Disconnect Review retest",
+  "CSOF": "494949",
+  "EVC_M": [
+    {
+      "UNI_ID": [
+        "16/KXGS/119713//ACSO",
+        "16/KXGS/119712//ACSO"
+      ],
+      "MSTO_DEVICE_NAME": "ORVYAZBO00W-01CUST.08A"
+    },
+    {
+      "UNI_ID": ["16/KXGS/121372//ACSO"],
+      "MSTO_DEVICE_NAME": "TCSNAZMA17W-010158.08A"
+    }
+  ],
+      "DSP_CORRELATION_ID" : 407,
+      "WORKGROUP" : "ASP"    
+}

@@ -1,0 +1,45 @@
+#parse("/array.java.vm")
+#if ($packageName)
+package $packageName;
+
+#end##
+import net.serenitybdd.cucumber.CucumberWithSerenity;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.runner.RunWith;
+
+import com.ctl.it.qa.staf.Environment;
+import com.ctl.it.qa.staf.STAFEnvironment;
+import com.ctl.it.qa.staf.Steps;
+import com.ctl.it.qa.staf.TestEnvironment;
+import com.ctl.it.qa.staf.RallyTools;
+
+import cucumber.api.CucumberOptions;
+
+@TestEnvironment(Environment.TEST1)
+@RunWith(CucumberWithSerenity.class)
+@CucumberOptions(
+strict = $strict,
+features = {"$featureFile"},
+plugin = #stringArray($plugins),
+monochrome = $monochrome,
+#if(!$featureFile.contains(".feature:") && $tags)
+tags = #stringArray($tags),
+#end
+glue = #stringArray($glue))
+public class $className {
+
+@BeforeClass
+	public static void setEnvironment() {
+	    STAFEnvironment.registerEnvironment($className .class);
+		Steps.initialize("Omnivue.xml");
+		RallyTools.initiateRallyLogin();
+		
+	}
+
+	@AfterClass
+	public static void postTestExecution(){
+		RallyTools.closeRallyAPI();
+	}
+
+}

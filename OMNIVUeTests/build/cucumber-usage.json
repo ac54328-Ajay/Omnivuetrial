@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^I select \"([^\"]*)\" in Search slider$",
+    "steps": [
+      {
+        "name": "I select \"Tasks\" in Search slider",
+        "aggregatedDurations": {
+          "average": 1.746817733,
+          "median": 1.746817733
+        },
+        "durations": [
+          {
+            "duration": 1.746817733,
+            "location": "1. OMNIVue Application Sanity Suite/1.1 In-Sprint Sanity/In-Sprint.feature:242"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am logged in as a \"([^\"]*)\" user in Omnivue$",
+    "steps": [
+      {
+        "name": "I am logged in as a \"Admin\" user in Omnivue",
+        "aggregatedDurations": {
+          "average": 43.022675617,
+          "median": 43.022675617
+        },
+        "durations": [
+          {
+            "duration": 43.022675617,
+            "location": "1. OMNIVue Application Sanity Suite/1.1 In-Sprint Sanity/In-Sprint.feature:240"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on \"([^\"]*)\" tab$",
+    "steps": [
+      {
+        "name": "I click on \"Search\" tab",
+        "aggregatedDurations": {
+          "average": 1.269300818,
+          "median": 1.269300818
+        },
+        "durations": [
+          {
+            "duration": 1.269300818,
+            "location": "1. OMNIVue Application Sanity Suite/1.1 In-Sprint Sanity/In-Sprint.feature:241"
+          }
+        ]
+      }
+    ]
+  }
+]

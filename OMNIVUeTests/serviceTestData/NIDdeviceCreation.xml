@@ -1,0 +1,58 @@
+<soapenv:Envelope xmlns:icl="http://www.ICLNBI.com/ICLNBI_V2.00.xsd" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <icl:CreateDeviceRequest>
+         <MessageElements>
+            <MessageAddressing>
+               <from>DSP</from>
+               <to>ICL</to>
+               <replyTo>DSP</replyTo>
+               <messageID>HARI1234</messageID>
+               <action>CreateDevice</action>
+               <timestamp>Tue Jun 2 16:22:25 IST 2013</timestamp>
+               <transactionID>138200714520511111111</transactionID>
+               <serviceName>CreateDevice</serviceName>
+               <serviceVersion>3.0</serviceVersion>
+               <userId>DSPWFPP</userId>
+               <password>DSPWFPP</password>
+            </MessageAddressing>
+         </MessageElements>
+         <Device>
+            <commonName>ETRPNVFH711-1234</commonName>
+            <sourceSystem>ARM</sourceSystem>
+            <CLLICode>DEVICENIDRD</CLLICode>
+            <ResourceType/>
+            <ResourceSubType>RAD ETX203AM_EQ/AC/G30/E/2S2U</ResourceSubType>
+            <ResourceDescribedBy>
+               <CharacteristicName>isSharedOrDedicated</CharacteristicName>
+               <CharacteristicValue>Shared</CharacteristicValue>
+            </ResourceDescribedBy>
+            <ResourceDescribedBy>
+               <CharacteristicName>MetaDataRequired</CharacteristicName>
+               <CharacteristicValue>True</CharacteristicValue>
+            </ResourceDescribedBy>
+            <ResourceDescribedBy>
+               <CharacteristicName>isDiversed</CharacteristicName>
+               <CharacteristicValue>Yes</CharacteristicValue>
+            </ResourceDescribedBy>
+            <OwnsResourceDetails>
+               <dataOwner>IXC</dataOwner>
+               <Customer>
+                  <commonName>A001058</commonName>
+               </Customer>
+            </OwnsResourceDetails>
+            <prStatus>Planned</prStatus>
+            <HasPhysicalDeviceRoles>
+               <commonName>NID</commonName>
+            </HasPhysicalDeviceRoles>
+            <ConsistsOfRack>
+               <commonName>01WLSO.01</commonName>
+            </ConsistsOfRack>
+            <InstalledAtAddress>
+               <commonName>634776</commonName>
+            </InstalledAtAddress>
+            <EMSHostName>ICL AUTO NETWORK</EMSHostName>
+         </Device>
+      </icl:CreateDeviceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

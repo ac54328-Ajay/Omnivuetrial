@@ -1,0 +1,79 @@
+2017-07-05 11:23:09 - LOADING LOCAL PROPERTIES FROM C:\OSSPROV\OmniVue\OmniVue_FrameWork\OMNIVUeTests\serenity.properties 
+2017-07-05 11:23:09 - LOADING LOCAL PROPERTIES FROM C:\OSSPROV\OmniVue\OmniVue_FrameWork\OMNIVUeTests\serenity.properties 
+2017-07-05 11:23:09 - LOADING LOCAL PROPERTIES FROM C:\OSSPROV\OmniVue\OmniVue_FrameWork\OMNIVUeTests\serenity.properties 
+2017-07-05 11:23:09 - webdriver.timeouts.implicitlywait=10000
+2017-07-05 11:23:09 - serenity.take.screenshots=AFTER_EACH_STEP
+2017-07-05 11:23:11 - project.build.directory : null
+2017-07-05 11:23:11 - project.reporting.OutputDirectory : null
+2017-07-05 11:23:11 - OutputDirectory : C:\OSSPROV\OmniVue\OmniVue_FrameWork\OMNIVUeTests\target\site\serenity
+2017-07-05 11:23:11 - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+2017-07-05 11:23:11 - Test Suite Started: Verify Omnivue GPON and G.fast main search screen functionality
+2017-07-05 11:23:11 - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: @GFast_OrderNumberMenuSanity -Validate searching via Ensemble order id through Omnivue Search Slider
+-------------------------------------------------------------------
+2017-07-05 11:23:11 - project.build.directory : null
+2017-07-05 11:23:11 - project.reporting.OutputDirectory : null
+2017-07-05 11:23:11 - OutputDirectory : C:\OSSPROV\OmniVue\OmniVue_FrameWork\OMNIVUeTests\target\site\serenity
+2017-07-05 11:23:14 - Scenario Tag Name:@GFast_OrderNumberMenuSanity
+2017-07-05 11:23:14 - Scenario Name:Validate searching via Ensemble order id through Omnivue Search Slider
+2017-07-05 11:23:14 - Sheet Name:GFast_BaseSanity
+2017-07-05 11:23:16 - Your current IP address : 513364CPTR/10.145.64.135
+2017-07-05 11:23:16 - Your current Hostname : 513364CPTR
+2017-07-05 11:23:31 - Launching the Omnivue URL:https://omnivue-test3.test.intranet/OMNIVue/login.html
+2017-07-05 11:23:36 - Supporting Systems are Up & running
+2017-07-05 11:23:41 - Login was Successful
+2017-07-05 11:23:52 - Going to click Search close tab is not available
+2017-07-05 11:24:01 - Done with Entering data from Excel
+2017-07-05 11:24:01 - Clicking on Search button in the Search Slider
+2017-07-05 11:24:06 - Done with searching
+2017-07-05 11:24:15 - Order Number is :698186
+2017-07-05 11:24:15 - Sheet data:1401522492
+2017-07-05 11:24:16 - Data Dispalyed:1401522492
+2017-07-05 11:24:17 - Searching the Tab
+2017-07-05 11:24:17 - Order Id is displayed
+2017-07-05 11:24:17 - Ensemble Order Number is displayed 1401522492
+2017-07-05 11:24:17 - Search Parameter:13
+2017-07-05 11:24:21 - Customer is displayed BAKERSFIELD,BOBBY
+2017-07-05 11:24:25 - column_data Present:[Automation Status, Scenario, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, Validate searching via Ensemble order id through Omnivue Search Slider, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ]
+2017-07-05 11:24:25 - Row Position:11
+2017-07-05 11:24:25 - Row count=11
+2017-07-05 11:24:25 - GFast Base sanity Data written
+2017-07-05 11:24:25 - Column count=15
+2017-07-05 11:24:25 - Data Present:[Validate searching via Ensemble order id through Omnivue Search Slider, '@GFast_OrderNumberMenuSanity, 1401522492, , , , EOS, 698186, Pass, Pass, 2017-07-14  , ADD  , ASSIGNED  , Pass in Order View Page, EOS]
+2017-07-05 11:24:25 - Automation status header found in:3
+2017-07-05 11:24:25 - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: @GFast_OrderNumberMenuSanity -Validate searching via Ensemble order id through Omnivue Search Slider
+----------------------------------------------------------------------------
+2017-07-05 11:24:25 - Scenario Name: @GFast_OrderNumberMenuSanity -Validate searching via Ensemble order id through Omnivue Search Slider
+2017-07-05 11:24:25 - Scenario status: passed
+2017-07-05 11:24:25 - ---------------------------------------- Scenario got executed Successfully----------------------------------------------------------------------
+2017-07-05 11:24:56 - ***********  Total Metrics for OmniVue Run may be at the End  ***********
+2017-07-05 11:24:56 - #Total Feature Executed: 1
+2017-07-05 11:24:56 - #Total Scenarios Executed: 1
+2017-07-05 11:24:56 - #Total Scenario Passed: 1
+2017-07-05 11:24:56 - #Total Scenario Failed: 0
+2017-07-05 11:24:56 - #Total No Tag Validation Errors: 0

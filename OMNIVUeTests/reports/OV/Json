@@ -1,0 +1,166 @@
+[
+  {
+    "id": "ftt-automation-scripts",
+    "description": "",
+    "name": "FTT Automation Scripts",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "ftt-automation-scripts;creating-eqpt-build-order-number-for-ftt",
+        "tags": [
+          {
+            "name": "@FTT",
+            "line": 13
+          },
+          {
+            "name": "@FTT_EQTOrder",
+            "line": 13
+          }
+        ],
+        "description": "",
+        "name": "Creating Eqpt Build order number for FTT",
+        "keyword": "Scenario",
+        "line": 14,
+        "steps": [
+          {
+            "result": {
+              "duration": 77752205839,
+              "status": "passed"
+            },
+            "name": "I am logged in as a \"Adminrole\" user in Omnivue",
+            "keyword": "Given ",
+            "line": 15,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adminrole",
+                  "offset": 21
+                }
+              ],
+              "location": "UserStepDefinition.logging_in_user(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 588077949,
+              "status": "passed"
+            },
+            "name": "I clicked on \"Create\" tab",
+            "keyword": "When ",
+            "line": 16,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create",
+                  "offset": 14
+                }
+              ],
+              "location": "OVSearchStepDefinition.clickonTab(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4203070017,
+              "status": "passed"
+            },
+            "name": "I go to \"Network Build\" type and select \"Alternate Equipment Build\"",
+            "keyword": "And ",
+            "line": 17,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Network Build",
+                  "offset": 9
+                },
+                {
+                  "val": "Alternate Equipment Build",
+                  "offset": 41
+                }
+              ],
+              "location": "OVSearchStepDefinition.selectFormType(String,String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5704038869,
+              "status": "passed"
+            },
+            "name": "I select \"Non-CE\" as Build type",
+            "keyword": "And ",
+            "line": 18,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Non-CE",
+                  "offset": 10
+                }
+              ],
+              "location": "OVNetworkbuildStepDefinition.i_select_buildtype(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 70594721503,
+              "status": "failed",
+              "error_message": "net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 10 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027XIN009CDAB52523\u0027, ip: \u002710.140.18.188\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.7.0_07\u0027\nDriver info: driver.version: unknown\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:145)\r\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:93)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:144)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:293)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:667)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:986)\r\n\tat sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)\r\n\tat $Proxy25.click(Unknown Source)\r\n\tat com.ctl.it.qa.omnivue.tools.steps.user.UserSteps.add_device_Alt_equit(UserSteps.java:3356)\r\n\tat com.ctl.it.qa.omnivue.tools.steps.user.UserSteps$$EnhancerByCGLIB$$e9649687.CGLIB$add_device_Alt_equit$54(\u003cgenerated\u003e)\r\n\tat com.ctl.it.qa.omnivue.tools.steps.user.UserSteps$$EnhancerByCGLIB$$e9649687$$FastClassByCGLIB$$8036d65.invoke(\u003cgenerated\u003e)\r\n\tat net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)\r\n\tat com.ctl.it.qa.omnivue.tools.steps.user.UserSteps$$EnhancerByCGLIB$$e9649687.add_device_Alt_equit(\u003cgenerated\u003e)\r\n\tat com.ctl.it.qa.OmniVueTests.OV.Inventory.OVNetworkbuildStepDefinition.add_device_buildtype(OVNetworkbuildStepDefinition.java:31)\r\n\tat ✽.And I add NID \u0026 NPE devices in the ALT Equipment Build(Omnivue Application Features/FTT Automation.feature:19)\r\n"
+            },
+            "name": "I add NID \u0026 NPE devices in the ALT Equipment Build",
+            "keyword": "And ",
+            "line": 19,
+            "match": {
+              "location": "OVNetworkbuildStepDefinition.add_device_buildtype()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "name": "I fill mandatory field in Alt Equipment Build",
+            "keyword": "And ",
+            "line": 20,
+            "match": {
+              "location": "OVNetworkbuildStepDefinition.fillfieldsinaltequit()"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "name": "I Click on the \"Submit Build\" Button in Order Details page",
+            "keyword": "And ",
+            "line": 21,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Submit Build",
+                  "offset": 16
+                }
+              ],
+              "location": "OVOrderStepDefinition.I_Click_on_the_Create_Button_in_Order_Details_page(String)"
+            }
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "name": "I update \"Equip order\" in the FTT excel sheet",
+            "keyword": "Then ",
+            "line": 22,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Equip order",
+                  "offset": 10
+                }
+              ],
+              "location": "OVOrderStepDefinition.updatefttsheet(String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "Omnivue Application Features/FTT Automation.feature"
+  }
+]

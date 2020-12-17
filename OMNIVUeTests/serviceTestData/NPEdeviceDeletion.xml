@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:icl="http://www.ICLNBI.com/ICLNBI_V2.00.xsd">
+  <soapenv:Header />
+  <soapenv:Body>
+    <tns:DeleteDeviceRequest xsi:schemaLocation="http://www.ICLNBI.com/ICLNBI_V2.00.xsd C:\Rashmi\XMLSPY\ICL_V2.01.xsd" xmlns:tns="http://www.ICLNBI.com/ICLNBI_V2.00.xsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <MessageElements>
+        <messageStatus />
+        <MessageAddressing>
+          <from>DSP</from>
+          <to>ICL</to>
+          <replyTo>DSP</replyTo>
+          <relatesTo />
+          <messageID>1234</messageID>
+          <action>DeleteDevice</action>
+          <timestamp>06/27/11</timestamp>
+          <transactionID>12345</transactionID>
+          <serviceName>DeleteDevice</serviceName>
+          <serviceVersion>3.0</serviceVersion>
+          <userId>AA99999</userId>
+          <password>*********</password>
+        </MessageAddressing>
+      </MessageElements>
+      <Device>
+        <commonName>ETRPNVFH722-1234</commonName>
+        <sourceSystem>ARM</sourceSystem>
+      </Device>
+    </tns:DeleteDeviceRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
